@@ -1,61 +1,78 @@
-# 🛍️ Black Friday Sales Analysis
-
-**Goal:** Analyze customer behavior during Black Friday sales to uncover insights that drive revenue and retention.
+# 📊 Black Friday Sales Analysis
 
 ---
 
-## 🚀 Project Summary
-
-This end-to-end data analytics project uses SQL (PostgreSQL via DBeaver), Python (Google Colab), and Tableau to answer real business questions from 550K+ retail transactions.
+## 🎯 Objective
+This project analyzes Black Friday retail transactions to uncover key patterns in customer behavior—across age, marital status, and product categories—with the goal of delivering data-driven recommendations that boost future revenue and retention.
 
 ---
 
 ## 🛠️ Tools & Tech
-
-* **SQL (PostgreSQL):** Data cleaning, transformation, normalization, fact table creation
-* **Python (Pandas, Seaborn, Matplotlib):** EDA and visualization
-* **Tableau:** Interactive dashboard for stakeholder insights
-* **GitHub:** project documentation
-
----
-
-## 🔍 Business Insights Delivered
-
-1. 🏆 **Top Revenue Categories** –  Product Category 1 generates the highest revenue ($22.7M), followed by Categories 8 and 5. However, Categories 20 and 19 contribute less than $12k. These low-performing categories may warrant further investigation to assess their relevance, marketing investment, or potential phase-out. 
-
-2. ❤️ **Marital Status & Spending** – Across all city categories, unmarried customers consistently purchase more products than married ones. This suggests that marketing efforts focused on single individuals—especially in City Category B—could yield higher returns.
-
-3. 📊 **Age-Based Spending** – Customers aged 26–35 spend the most in total ($51.31M), making them the most profitable segment. However, the 51–55 age group has the highest average spent per product, suggesting a smaller but high-value audience.
+- **PostgreSQL (via DBeaver)**: Cleaned, normalized, and analyzed 550K+ transaction records.
+- **Python (Google Colab)**: Performed exploratory data analysis using Pandas, Seaborn, and Matplotlib.
+- **Tableau**: Built a single interactive dashboard for stakeholders to explore trends and metrics.
+- **GitHub**: Hosted full documentation, code, and visual assets.
 
 ---
 
-## 📊 Deliverables
+## 📈 Methodology
+1. **Data Preparation**  
+   - Loaded raw datasets into PostgreSQL, addressed nulls, standardized column names, and created a fact table.
 
-* 📁 SQL scripts to clean and structure the data (raw → clean → normalized → fact)
-* 📈 Python notebook with visualizations + insights
-* 📉 Tableau dashboard with filters by city, age, marital status, product category
-  → [View Dashboard](https://public.tableau.com/app/profile/miguel.negron/viz/Black__Friday_Sales_Dataset/Dashboard1)
+2. **SQL Analysis**  
+   - Executed business-driven queries to assess:
+     - Revenue per product category
+     - Purchase quantity by marital status and city tier
+     - Spending patterns across age groups
 
----
+3. **QA & Validation**  
+   - Exported query results into Google Colab Python for sanity checks and cross-validation.
 
-## 🔗 Project Assets
-
-* `sql/` → Structured queries + logic
-* `data/` → CSVs for all table stages
-* `colab/` → Python EDA notebook
-* `dashboard/` → Tableau workbook
-* `images/` → Chart exports
-* `README.md` → 📌 You’re reading it!
-
----
-
-## 👣 Next Step
-
-* Automate dataset refresh in Google Colab
+4. **Dashboard Development**  
+   - Assembled an interactive Tableau dashboard combining all analyses.
+   - Filters enable dynamic segmentation by age, gender, marital status, and city tier.
 
 ---
 
-## 📫 Let’s Connect
+## 🔎 Key Insights
+- **👑 Top Category:** Product Category 1 earned $22.7M — highest revenue, though average spend per user was modest compared to niche categories.
+- **👫 Marital Patterns:** Unmarried customers purchase more items than married ones across city tiers, signaling untapped marketing potential.
+- **🎯 Age Trends:** Individuals aged 26–35 generated $51.31M in spending, marking them as the most valuable segment; the 51–55 group had the highest spend *per purchase*.
 
-* **LinkedIn:** \[www.linkedin.com/in/miguel-negron-garcia-3a6b001b9]
-* **GitHub:** \[[Your GitHub Profile](https://github.com/MiguelNegron1)]
+---
+
+## ✅ Recommendations
+1. **Target 26–35 Age Group** with tailored campaigns, offers, and email retargeting.
+2. **Upsell in Category 1** by setting up bundle or premium versions to increase average order value.
+3. **Market to Unmarried Users** with single-focused promotions—especially in City Tier B.
+
+---
+
+## 📊 Dashboard
+[Explore the full interactive dashboard on Tableau Public]([#insert-your-link-here](https://public.tableau.com/app/profile/miguel.negron/viz/Black__Friday_Sales_Dataset/Dashboard1))
+
+---
+
+## 📂 Repository Contents
+- `sql/` → SQL scripts (data cleaning & analytics queries)
+- `colab/` → Python notebook with EDA and visualizations
+- `dashboard/` → Tableau workbook file
+- `data/` → Raw and processed CSV files
+- `images/` → Charts and dashboard screenshots for quick preview
+- `README.md` → You're reading the project overview now!
+
+---
+
+## 🚀 Next Steps (Optional Stretch Goals)
+- Set up an automated ETL pipeline using Google Colab + Google Drive/Snowflake to refresh the data and dashboard monthly.
+
+---
+
+## 📫 Connect with Me
+- **LinkedIn**: [miguel-negron-garcia-3a6b001b9](https://www.linkedin.com/in/miguel-negron-garcia-3a6b001b9/)  
+- **GitHub**: [github.com/MiguelNegron1](https://github.com/MiguelNegron1)
+
+---
+
+### 📌 Dataset
+Original source: [Kaggle Black Friday Sales Dataset]([https://www.kaggle.com/datasets/sdolezel/black-friday](https://www.kaggle.com/datasets/rajeshrampure/black-friday-sale))
