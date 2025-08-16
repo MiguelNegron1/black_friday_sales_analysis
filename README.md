@@ -49,6 +49,8 @@ This project analyzes Black Friday retail transactions to uncover key patterns i
 ---
 
 ## 📊 Dashboard
+<img width="2453" height="1016" alt="Screenshot 2025-08-16 101135" src="https://github.com/user-attachments/assets/19e45685-4392-415e-83ae-c9bc3539205d" />
+
 [Explore the full interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/miguel.negron/viz/Black__Friday_Sales_Dataset/Dashboard1)
 
 ---
